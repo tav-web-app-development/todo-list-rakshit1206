@@ -65,7 +65,7 @@ function App() {
 
   if (checkbox) {
     tasks = tasks.filter((task) => {
-      return task.completed === false;
+      return task.completed === true;
     });
   }
   return (
